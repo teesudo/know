@@ -10,4 +10,3 @@ GetACoder
 
 http://www.myfreelancer.info 
 
-Test commit
