@@ -1,0 +1,8 @@
+1. File IO
+f = open("foo.txt")
+line = f.readline()
+while line:
+  print line,
+  # print(line, end = '')  --> python 3
+  line = f.readline()
+f.close()
