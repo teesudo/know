@@ -1,0 +1,3 @@
+1 how to try to reduce code base size:
+
+2 宏, eval, 声明式数据结构，模板
