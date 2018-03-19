@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=xrbviAfagrU
+https://github.com/allenking1028/ss/issues/1
+
 1：sudo -i
 
 (最前面显示root@xxxx)
