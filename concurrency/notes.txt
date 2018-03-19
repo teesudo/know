@@ -1,0 +1,3 @@
+some summary:
+1. http://jolestar.com/parallel-programming-model-thread-goroutine-actor/
+2. AKKA: https://zhuanlan.zhihu.com/p/25598361 https://www.zhihu.com/question/29472057 https://www.zhihu.com/question/28080077
