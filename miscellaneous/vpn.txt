@@ -1,0 +1,42 @@
+1：sudo -i
+
+(最前面显示root@xxxx)
+
+第二步有新代码，选其一。
+
+2：wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+
+蓝底窗口按TAB键选NO
+
+选择重启 Y
+
+这里会断开连接，大家可以关掉窗口再重新打开。
+以下是第二步的另一套代码TCP-BBR加速方案
+
+wget --no-check-certificate https://github.com/iyuco/scripts/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
+复制过去以后便会自动开始当显示./bbr.sh 的时候回车
+2018-03-14 12 56 30
+到这个界面的时候再按回车
+2018-03-14 12 58 29
+
+出现这个地方的时候输入n不重启直接继续（也别关掉窗口重开，不然会SSH连接不上）
+并直接跳转第5步继续
+3：sudo -i
+
+(最前面显示root@xxxx)
+
+4：bash bbr.sh start
+
+如果用的新代码这3.4 这两步步跳过
+
+5：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+
+6：./shadowsocksR.sh
+
+输入shadowsocks 密码
+
+输入端口号
+
+其他一路回车
