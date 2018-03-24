@@ -1,0 +1,20 @@
+coursera course,
+Text Data Management and Analysis: A Practical Introduction to Information Retrieval and Text Mining
+http://sifaka.cs.uiuc.edu/ir/index.html
+
+--------------------------------------
+--------------------------------------
+Course details:
+Big Text Data   => (Natural Language Content Analysis)  ==> Process Systems
+
+Process Systems ===> Search Engine ====> Text Retrieval Problem, Text Retrieval Methods, 
+                                         Vector Space Model, System Implementation, Evaluation,
+                                         Probabilistic Model, Feedback, Web Search
+                ===> Recommender System ====> Recommendation
+
+Results are =====> Small Relevant Data (Text Access)
+
+
+--------------------------------------
+--------------------------------------
+Concepts:
