@@ -18,3 +18,31 @@ Results are =====> Small Relevant Data (Text Access)
 --------------------------------------
 --------------------------------------
 Concepts:
+1. semantics vs pragmatics
+2. empirical evaluation
+3. different information retrieval models
+> similarity-based models: f(q,d) = similarity(q,d)
+-- vector space model
+> probabilistic models: f(q,d) = p(R=1|d,q), where R in {0, 1}
+--classic probabilistic model
+--language model
+--divergence-from-randomness model
+>probabilistic inference model: f(q,d) = p(d->q)
+>axiomatic model: f(q,d_ must satisfy a set of constraints
+4. TFIDF
+--Pivoted length normalization
+--BM25
+--Query likelihood
+--PL2
+5. 1
+
+--------------------------------------
+--------------------------------------
+Reference:
+1.<b> Text DataManagement and Analysis
+2.<b> Foundations of Statistical Natural Language Processing
+3.<p> Information filtering and information retrieval: Two sides of the same coin?  http://maroo.cs.umass.edu/getpdf.php?id=131
+4.<p> The probability ranking principle in IR 1977
+5.<b> Information Retrieval C.J.van Rijsbergen
+6.<p> Diagnostic Evaluation of Information Retrieval Models, ACM Trans. Inf. Syst. 2011.4 Hui Fang
+7.<p> Statistical Language models for information retrieval 2008 ChengXiang Zhai
