@@ -1,0 +1,33 @@
+Start From version info
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>9</version>
+	</parent>
+
+	<groupId>org.pac4j</groupId>
+	<artifactId>pac4j</artifactId>
+	<packaging>pom</packaging>
+	<name>pac4j</name>
+	<version>3.0.0-SNAPSHOT</version>
+	<description>Profile &amp; Authentication Client for Java</description>
+	<url>https://github.com/pac4j/pac4j</url>
+
+-------------------------------------
+pack4j-config
+1. create an interface and have properties in it -> create an abstract builder implement 
+example: [I] PropertiesConstants -> [A] AbstractBuilder -> [C] PropertiesConfigFactory
+
+2. use final in the method param, to avoid edition of input param
+
+3. need to see LdaptiveAuthe... and builders and PropertiesConfigFactory.
+
+
+
+
+
+-------------------------------------
+pack4j-core
+1. question: why do we have self defined exceptions?
+2. commonhelper is very useful, java.util.UUID.randomUUID()
+3. 
