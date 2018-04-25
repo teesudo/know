@@ -1,0 +1,21 @@
+make interface easy to use correctly and hard to use incorrectly
+(GUI/Command line Interface/Library/Module/API/Classes)
+
+———————
+Avoid gratuitous incompatibilities with the surrounding environment
+
+Principle of least astonishment
+
+choose a good name -> name is interfaces
+
+———————
+Document interfaces before implementing them
+
+Employ progressive disclosure
+
+———————
+Introduce new types to prevent common errors.
+
+Consider explicitly defining all possible values for the type.
+
+Avoid overreliance on string.
