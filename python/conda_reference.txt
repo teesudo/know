@@ -1,0 +1,8 @@
+https://conda.io/docs/user-guide/tasks/manage-environments.html#activate-env
+> conda info --envs
+
+CHOOSE different version of Python
+https://conda.io/docs/user-guide/tasks/manage-python.html
+
+use a different version of python env
+> source activate py36
