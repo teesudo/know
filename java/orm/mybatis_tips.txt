@@ -51,5 +51,41 @@ in the mapper
   <result column="administrator" jdbcType="BOOLEAN" property="administrator" />
 </esultMap>
 then the is can be used in the same mapper.
+<select id="queryMessageList" parameterType="long" resultMap="MessageResult">
+  SELECT ID, COMMAND, DESCRIPTION, CONTENT from MESSAGE WHERE 1=1
+</select>
 
-4. 
+4. mybatis OGNL 
+String and primitive type -> _parameter
+class -> command (prop name)
+collection -> array/list/_parameter(map)
+
+<foreach collection="array" index="i" item="item>
+
+and/or/mod/in/not in
+
+5. dynamic sql
+<select id="queryMessageList" parameterType="long" resultMap="MessageResult">
+  SELECT ID, COMMAND, DESCRIPTION, CONTENT from MESSAGE WHERE 1=1
+  <if test="command != null and !&quot;&quot;.equals(command.trim())">and COMMAND=#{command}</if>
+</select>
+
+6. show sql on console use logback
+https://blog.csdn.net/silk_java/article/details/43487851
+
+7. delete something
+<delete id="deleteOne" parameterType="int">
+  delete from Message where ID = #{_parameter}
+</delete>
+
+<delete id="deleteBatch" parameterType="java.util.List">
+  delete from MESSAGE where ID in(
+    <foreach collection="list" item="item" separator=",">
+      #{item}
+    </foreach>
+  )
+</delete>
+
+
+
+
